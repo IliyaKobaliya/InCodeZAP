@@ -1,0 +1,52 @@
+.clients_container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #111;
+  background: #595959;
+  cursor: pointer;
+  transition: 0.4s; }
+  .clients_container .Small_avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em; }
+    .clients_container .Small_avatar img {
+      border-radius: 10px;
+      width: 100px;
+      height: 100px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+  .clients_container .Personal_info {
+    font-size: 1em;
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .clients_container .Personal_info .nameList {
+      font-size: 1.2em;
+      color: white;
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      height: 50%;
+      font-weight: bolder;
+      text-shadow: 1px 2px 4px black; }
+    .clients_container .Personal_info .jobList {
+      color: #c3c3c3;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      height: 50%;
+      text-shadow: 1px 2px 4px black; }
+
+.clients_container:hover {
+  background: #181818;
+  transition: 0.4s; }
+
+/*# sourceMappingURL=ClientsList_Style.css.map */

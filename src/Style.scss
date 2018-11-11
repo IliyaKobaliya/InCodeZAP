@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+button:active, button:hover, button:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+input:active, input:hover, input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.left{
+  display: block;
+  min-height: 100vh;
+  @media screen and (max-width: 1024px) {
+    min-height: 39vh;
+  }
+  .search{
+    height: 8vh;
+    background: #595959;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clientsList{
+    height: 92vh;
+    background: #c3c3c3;
+    box-sizing: border-box;
+    border-top: 1px solid #111;
+    overflow-y: scroll;
+    border-right: 1px solid #111;
+    @media screen and (max-width: 425px) {
+      height: 31vh;
+    }
+  }
+}
+.right{
+  display: block;
+  min-height: 100vh;
+  background: #595959;
+  background: url("https://cdn.pixabay.com/photo/2016/08/20/09/55/magnifying-glass-1607208_960_720.jpg") no-repeat;
+  background-size: cover;
+}
